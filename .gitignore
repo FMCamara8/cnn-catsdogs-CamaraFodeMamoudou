@@ -1,0 +1,25 @@
+# ---- Données (à télécharger séparément, voir README) ----
+Cat_Dog_data/
+*.zip
+
+# ---- Modèles entraînés ----
+*.pt
+*.pth
+checkpoints/
+
+# ---- Historiques d'entraînement ----
+historiques/
+
+# ---- Journaux TensorBoard ----
+runs/
+
+# ---- Python et Jupyter ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# ---- Système ----
+.DS_Store
+Thumbs.db
